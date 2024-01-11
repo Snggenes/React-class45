@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Navbar({products, setProducts}) {
+export default function Navbar({category, setCategory}) {
 
   function setAllProducts(){
-    setProducts('allProducts')
+    setCategory('all')
   }
 
   return (

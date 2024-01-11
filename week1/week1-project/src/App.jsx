@@ -4,12 +4,12 @@ import Main from "./components/Main.jsx"
 
 
 function App() {
-  const [products, setProducts] = useState(`allProducts`)
+  const [category, setCategory] = useState(`all`)
 
   return (
     <>
-      <Navbar products={products} setProducts={setProducts}/>
-      <Main products={products} setProducts={setProducts}/>
+      <Navbar category={category} setCategory={setCategory}/>
+      <Main category={category} setCategory={setCategory}/>
     </>      
   )
 }
